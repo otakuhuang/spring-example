@@ -1,10 +1,14 @@
 ## 介绍
 
-该示例演示了如何在 Spring Boot 中使用其本身的 **Scheduling Tasks** 模块，来设置定时任务。
+Spring Boot 使用 **Scheduling Tasks** 模块，来设置定时任务。
 
 ## 环境
 
-Spring Boot Version: 2.7.8
+项目 | 版本
+--- | ---
+OS | Manjaro Linux x86_64
+Java | openjdk 17.0.6
+Spring Boot | 2.7.8
 
 ## 文档
 

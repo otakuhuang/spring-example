@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+xxl:
+  job:
+    admin:
+      # xxl-job-admin 地址
+      address: http://172.18.0.7:8080/xxl-job-admin
+    # 执行器通讯 Token
+    accessToken: default_token
+    executor:
+      # 执行器名称
+      appname: spring-boot-xxl-job
+      address:
+      ip:
+      # 执行器端口号
+      port: 9999
+      # 执行器运行日志
+      logpath: logs/
+      # 日志清理时间，大于等于 3 时生效，否则不自动清理
+      logretentiondays: 30
+
